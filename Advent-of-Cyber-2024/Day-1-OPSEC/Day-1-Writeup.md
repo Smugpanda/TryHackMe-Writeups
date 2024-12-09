@@ -138,7 +138,7 @@ This case highlights several common OPSEC failures by attackers:
 
 2. **What is the URL of the C2 server?**
    - http://papash3ll.thm/data  
-     ![C2 Server URL](images/c2-server-url.png)  
+     ![C2 Server URL](images/C2-Server-URL.png)  
      *Figure 1: Output showing the C2 server URL from metadata analysis.*
 
 3. **Who is M.M.?**
