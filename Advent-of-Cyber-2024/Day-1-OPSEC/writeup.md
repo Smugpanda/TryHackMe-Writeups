@@ -154,4 +154,8 @@ This case highlights several common OPSEC failures by attackers:
 ## Conclusion
 This challenge demonstrates how poor OPSEC practices can expose attackers' identities and operations. By analyzing suspicious files and investigating metadata, cybersecurity professionals can uncover critical evidence in cyber investigations.
 
+<<<<<<< HEAD
 ---
+=======
+---
+>>>>>>> fdcc249714b1fae34ce86394f32307238bdcb5ab
