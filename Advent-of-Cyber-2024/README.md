@@ -12,8 +12,10 @@ Below is a list of the challenges completed during Advent of Cyber 2024. Click o
 
 1. [Day 1: OPSEC](Day-1-OPSEC/writeup.md)  
    *Investigating malicious link files and analyzing OPSEC failures.*
-2. **Day 2: Log Analysis** *(Coming Soon)*  
-3. **Day 3: Log Analysis** *(Coming Soon)*  
+2. [Day 2: Log Analysis](Day-2-Log-Analysis/writeup.md)  
+   *Analyzing logs to uncover suspicious activity.*
+3. [Day 3: Log Analysis](Day-3-Log-Analysis/writeup.md)  
+   *Exploring further log analysis techniques.*
 4. **Day 4: Atomic Red Team** *(Coming Soon)*  
 5. **Day 5: XXE** *(Coming Soon)*  
 6. **Day 6: Sandboxes** *(Coming Soon)*  
