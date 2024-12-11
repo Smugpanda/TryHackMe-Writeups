@@ -22,7 +22,8 @@ Below is a list of the challenges completed during Advent of Cyber 2024. Click o
    *Exploiting XML External Entity vulnerabilities.*  
 6. [Day 6: Sandboxes](Day-6-Sandboxes/writeup.md)  
    *Understanding and bypassing sandbox environments.* 
-7. **Day 7: AWS Log Analysis** *(Coming Soon)*  
+7. [Day 7: AWS Log Analysis](Day-7-AWS-Log-Analysis/writeup.md)  
+   *Investigating AWS logs for suspicious activities.*  
 8. **Day 8: Shellcodes** *(Coming Soon)*  
 9. **Day 9: GRC** *(Coming Soon)*  
 
@@ -37,14 +38,36 @@ The purpose of this folder is to document my progress through the Advent of Cybe
 ---
 
 ## **Tools Used**
-Throughout these challenges, I used a variety of tools and techniques, including:
-- **Forensics Tools**: `exiftool`, Wireshark.
-- **Web Exploitation Tools**: Burp Suite, OWASP ZAP.
-- **Scripting Languages**: Python, Bash, Powershell
-- **Cloud Security Tools**: AWS CLI, CloudTrail.
-- **General Tools**: Nmap, Metasploit.
 
-Each writeup details which tools were used and how they were applied to solve the challenge.
+Throughout these challenges, I utilized a variety of tools and techniques tailored to each specific task. Below is a more detailed breakdown of the tools used in different categories:
+
+### **Forensics Tools**
+- **ExifTool**: For extracting metadata from files. [Official Site](https://exiftool.org/)
+- **Wireshark**: For analyzing network traffic captures. [Official Site](https://www.wireshark.org/)
+
+### **Web Exploitation Tools**
+- **Burp Suite**: For intercepting and modifying HTTP requests. [Official Site](https://portswigger.net/burp)
+- **OWASP ZAP**: For scanning web applications for vulnerabilities. [Official Site](https://www.zaproxy.org/)
+
+### **Scripting Languages**
+- **Python**: For automating tasks and data analysis.
+- **Bash**: For scripting in Unix-based environments.
+- **PowerShell**: For scripting in Windows environments.
+
+### **Cloud Security Tools**
+- **AWS CLI**: Used for managing AWS services such as S3 and IAM directly from the command line.
+- **CloudTrail**: Utilized for tracking user activity and detecting anomalies in AWS environments.
+- **CloudWatch**: Employed for monitoring AWS resources and setting up alerts for suspicious activities.
+- **JQ**: Essential for parsing JSON data from CloudTrail logs to identify specific events and actions.
+
+### **General Tools**
+- **Nmap**: For network discovery and security auditing. [Official Site](https://nmap.org/)
+- **Metasploit**: For penetration testing and exploiting vulnerabilities. [Official Site](https://www.metasploit.com/)
+
+---
+
+## Future Plans
+I plan to continue updating these writeups as I complete more challenges, incorporating new tools and techniques learned along the way.
 
 ---
 
