@@ -20,7 +20,8 @@ Below is a list of the challenges completed during Advent of Cyber 2024. Click o
    *Using Atomic Red Team techniques to simulate attacks.* 
 5. [Day 5: XXE](Day-5-XXE/writeup.md)  
    *Exploiting XML External Entity vulnerabilities.*  
-6. **Day 6: Sandboxes** *(Coming Soon)*  
+6. [Day 6: Sandboxes](Day-6-Sandboxes/writeup.md)  
+   *Understanding and bypassing sandbox environments.* 
 7. **Day 7: AWS Log Analysis** *(Coming Soon)*  
 8. **Day 8: Shellcodes** *(Coming Soon)*  
 9. **Day 9: GRC** *(Coming Soon)*  
