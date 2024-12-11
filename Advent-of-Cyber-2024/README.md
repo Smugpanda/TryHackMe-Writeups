@@ -16,7 +16,8 @@ Below is a list of the challenges completed during Advent of Cyber 2024. Click o
    *Analyzing logs to uncover suspicious activity.*
 3. [Day 3: Log Analysis](Day-3-Log-Analysis/writeup.md)  
    *Exploring further log analysis techniques.*
-4. **Day 4: Atomic Red Team** *(Coming Soon)*  
+4. [Day 4: Atomic Red Team](Day-4-Atomic-Red-Team/writeup.md)  
+   *Using Atomic Red Team techniques to simulate attacks.* 
 5. **Day 5: XXE** *(Coming Soon)*  
 6. **Day 6: Sandboxes** *(Coming Soon)*  
 7. **Day 7: AWS Log Analysis** *(Coming Soon)*  
@@ -37,7 +38,7 @@ The purpose of this folder is to document my progress through the Advent of Cybe
 Throughout these challenges, I used a variety of tools and techniques, including:
 - **Forensics Tools**: `exiftool`, Wireshark.
 - **Web Exploitation Tools**: Burp Suite, OWASP ZAP.
-- **Scripting Languages**: Python, Bash.
+- **Scripting Languages**: Python, Bash, Powershell
 - **Cloud Security Tools**: AWS CLI, CloudTrail.
 - **General Tools**: Nmap, Metasploit.
 
