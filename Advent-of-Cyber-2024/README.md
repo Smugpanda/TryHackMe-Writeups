@@ -1,4 +1,4 @@
-# Advent of Cyber 2024
+# **Advent of Cyber 2024**
 
 ## **Introduction**
 The Advent of Cyber is an annual event hosted by TryHackMe that provides daily cybersecurity challenges throughout December. Each challenge is designed to teach participants new skills in areas such as penetration testing, digital forensics, web exploitation, and more.
@@ -10,22 +10,30 @@ This folder contains my writeups for the **Advent of Cyber 2024** challenges. Ea
 ## **Table of Contents**
 Below is a list of the challenges completed during Advent of Cyber 2024. Click on a specific day to view its writeup:
 
-1. [Day 1: OPSEC](Day-1-OPSEC/writeup.md)  
+1. [Day 1: OPSEC](Day-01-OPSEC/writeup.md)  
    *Investigating malicious link files and analyzing OPSEC failures.*
-2. [Day 2: Log Analysis](Day-2-Log-Analysis/writeup.md)  
+2. [Day 2: Log Analysis](Day-02-Log-Analysis/writeup.md)  
    *Analyzing logs to uncover suspicious activity.*
-3. [Day 3: Log Analysis](Day-3-Log-Analysis/writeup.md)  
+3. [Day 3: Log Analysis](Day-03-Log-Analysis/writeup.md)  
    *Exploring further log analysis techniques.*
-4. [Day 4: Atomic Red Team](Day-4-Atomic-Red-Team/writeup.md)  
+4. [Day 4: Atomic Red Team](Day-04-Atomic-Red-Team/writeup.md)  
    *Using Atomic Red Team techniques to simulate attacks.* 
-5. [Day 5: XXE](Day-5-XXE/writeup.md)  
+5. [Day 5: XXE](Day-05-XXE/writeup.md)  
    *Exploiting XML External Entity vulnerabilities.*  
-6. [Day 6: Sandboxes](Day-6-Sandboxes/writeup.md)  
+6. [Day 6: Sandboxes](Day-06-Sandboxes/writeup.md)  
    *Understanding and bypassing sandbox environments.* 
-7. [Day 7: AWS Log Analysis](Day-7-AWS-Log-Analysis/writeup.md)  
+7. [Day 7: AWS Log Analysis](Day-07-AWS-Log-Analysis/writeup.md)  
    *Investigating AWS logs for suspicious activities.*  
-8. **Day 8: Shellcodes** *(Coming Soon)*  
-9. **Day 9: GRC** *(Coming Soon)*  
+8. [Day 8: Shellcodes](Day-08-Shellcodes/writeup.md)  
+   *Analyzing and executing shellcode payloads.* 
+9. [Day 9: GRC](Day-09-GRC/writeup.md)  
+   *Exploring Governance, Risk, and Compliance in cybersecurity.* 
+10. [Day 10: Phishing](Day-10-Phishing/writeup.md)  
+    *Exploit phishing attacks using Macros.* 
+11. [Day 11: Wifi-attacks](Day-11-Wifi-attacks/writeup.md)  
+    *Exploring wireless network vulnerabilities.* 
+12. [Day 12: Web Timing Attacks](Day-12-Web-Timing-Attacks/writeup.md)  
+    *Understanding and exploiting web timing attacks to manipulate application behavior.*
 
 ---
 
@@ -42,12 +50,12 @@ The purpose of this folder is to document my progress through the Advent of Cybe
 Throughout these challenges, I utilized a variety of tools and techniques tailored to each specific task. Below is a more detailed breakdown of the tools used in different categories:
 
 ### **Forensics Tools**
-- **ExifTool**: For extracting metadata from files. [Official Site](https://exiftool.org/)
-- **Wireshark**: For analyzing network traffic captures. [Official Site](https://www.wireshark.org/)
+- **ExifTool**: For extracting metadata from files.
+- **Wireshark**: For analyzing network traffic captures.
 
 ### **Web Exploitation Tools**
-- **Burp Suite**: For intercepting and modifying HTTP requests. [Official Site](https://portswigger.net/burp)
-- **OWASP ZAP**: For scanning web applications for vulnerabilities. [Official Site](https://www.zaproxy.org/)
+- **Burp Suite**: For intercepting and modifying HTTP requests.
+- **OWASP ZAP**: For scanning web applications for vulnerabilities.
 
 ### **Scripting Languages**
 - **Python**: For automating tasks and data analysis.
@@ -61,8 +69,8 @@ Throughout these challenges, I utilized a variety of tools and techniques tailor
 - **JQ**: Essential for parsing JSON data from CloudTrail logs to identify specific events and actions.
 
 ### **General Tools**
-- **Nmap**: For network discovery and security auditing. [Official Site](https://nmap.org/)
-- **Metasploit**: For penetration testing and exploiting vulnerabilities. [Official Site](https://www.metasploit.com/)
+- **Nmap**: For network discovery and security auditing.
+- **Metasploit**: For penetration testing and exploiting vulnerabilities.
 
 ---
 
@@ -99,16 +107,13 @@ Special thanks to TryHackMe for organizing this event and providing such an exce
 Here’s how this folder is organized:
 ```plaintext
 Advent-of-Cyber-2024/
-├── Day-1-OPSEC/
+├── Day-01-OPSEC/
 │   ├── writeup.md
 │   └── images/
-├── Day-2-Log-Analysis/
+├── Day-02-Log-Analysis/
 │   ├── writeup.md
 │   └── images/
 ├── Day-X/
 │   ├── writeup.md
 │   └── images/
 └── README.md
-```
-
----

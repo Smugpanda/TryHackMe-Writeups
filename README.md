@@ -24,10 +24,10 @@ The repository is organized as follows:
 ```plaintext
 .
 ├── Advent-of-Cyber-2024/
-│   ├── Day-1-OPSEC/
+│   ├── Day-01-OPSEC/
 │   │   ├── writeup.md
 │   │   └── images/
-│   ├── Day-2-Log-Analysis/
+│   ├── Day-02-Log-Analysis/
 │   │   ├── writeup.md
 │   │   └── images/
 │   └── README.md
@@ -73,10 +73,10 @@ To explore the writeups in this repository:
 ## **Examples of Writeups**
 Here are some examples of challenges covered in this repository:
 
-1. [Day 1: OPSEC - Advent of Cyber 2024](Advent-of-Cyber-2024/Day-1-OPSEC/writeup.md)  
+1. [Day 1: OPSEC - Advent of Cyber 2024](Advent-of-Cyber-2024/Day-01-OPSEC/writeup.md)  
    *Investigating malicious link files and analyzing OPSEC failures.*
    
-2. [Day 2: Log Analysis - Advent of Cyber 2024](Advent-of-Cyber-2024/Day-2-Log-Analysis/writeup.md)  
+2. [Day 2: Log Analysis - Advent of Cyber 2024](Advent-of-Cyber-2024/Day-02-Log-Analysis/writeup.md)  
    *Analyzing logs to uncover suspicious activity.*
 
 More challenges will be added over time as I progress through TryHackMe rooms and events!
