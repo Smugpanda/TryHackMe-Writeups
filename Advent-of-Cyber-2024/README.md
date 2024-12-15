@@ -34,6 +34,8 @@ Below is a list of the challenges completed during Advent of Cyber 2024. Click o
     *Exploring wireless network vulnerabilities.* 
 12. [Day 12: Web Timing Attacks](Day-12-Web-timing-attacks/writeup.md)  
     *Understanding and exploiting web timing attacks to manipulate application behavior.*
+12. [Day 13: Websockets](Day-12-Websockets/writeup.md)  
+    *Understanding and exploiting websockets vulnerabilties.*
 
 ---
 
